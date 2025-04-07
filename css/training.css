@@ -1,0 +1,120 @@
+/* Student Name: Prabin Raj Karki
+Student ID: C0956644 */
+/* Base Reset and Fonts */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f5f7fa;
+    color: #333;
+    line-height: 1.6;
+  } */
+  
+  /* Container for consistent layout */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+
+  
+  /* Main Section */
+  main {
+    background-color: #ffffff;
+    padding: 50px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Training Table */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 30px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  }
+  
+  table caption {
+    font-size: 1.8rem;
+    font-weight: 600;
+    padding: 10px 20px;
+    text-align: left;
+    background-color: #bb5555;
+    color: white;
+  }
+  
+  table th,
+  table td {
+    padding: 16px;
+    text-align: left;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  table th {
+    background-color: #f7fafc;
+    font-weight: 700;
+    color: #333;
+  }
+  
+  table td {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  table img.product-image {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-right: 12px;
+  }
+  
+  table tr:hover {
+    background-color: #f4f5f7;
+  }
+  
+  table .row-highlight {
+    background-color: #f7fafc;
+  }
+  
+  table .row-highlight:hover {
+    background-color: #e9eff7;
+  }
+  
+  /* Additional Section */
+  h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 5px;
+    color: #1a202c;
+  }
+  
+  ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  ul li {
+    font-size: 1rem;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .why-end ul li::before{
+    content: "✔";
+    color: #bb5555;
+    font-weight: bold;
+  }
+  
+    

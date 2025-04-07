@@ -1,0 +1,151 @@
+/* Base Reset and Fonts */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f5f7fa;
+    color: #333;
+    line-height: 1.6;
+  } */
+  
+  /* Container for consistent layout */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+  .container h1{
+    color: #bb5555;
+  }
+
+  .meet-team{
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  /* Sections */
+  .story-section,
+  .who-we-are,
+  .team-section,
+  .team-quote {
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease;
+  }
+  
+  .story-section:hover,
+  .who-we-are:hover,
+  .team-section:hover,
+  .team-quote:hover {
+    transform: translateY(-3px);
+  }
+  
+  .team-section h2,
+  .story-section h2,
+  .who-we-are h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 5px;
+    color: #bb5555;
+    text-align: center;
+  }
+  
+  /* Team Card Layout */
+  .team-section {
+    display: grid;
+    /* grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); */
+    gap: 30px;
+  }
+
+  .card-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 30px;
+  }
+  
+  /* Team Card Style */
+  .team-card {
+    background-color: #fafafa;
+    border-radius: 16px;
+    padding: 25px;
+    text-align: center;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.04);
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .team-card:hover {
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  }
+  
+  /* Team Image */
+  figure {
+    margin: 0;
+  }
+  
+  figure img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+    transition: transform 0.3s ease;
+  }
+  
+  figure img:hover {
+    transform: scale(1.08);
+  }
+  
+  /* Figcaption */
+  figcaption {
+    font-weight: 600;
+    font-size: 1rem;
+    margin-top: 8px;
+    color: #444;
+  }
+  
+  /* Paragraph in cards */
+  .team-card p {
+    font-size: 0.95rem;
+    color: #555;
+    margin-top: 8px;
+  }
+  
+  /* Quote / Aside Section */
+  .team-quote {
+    font-style: italic;
+    text-align: center;
+    background-color: #e7f3ff;
+    border-left: 5px solid #3182ce;
+    color: #2c5282;
+    padding: 30px;
+    font-size: 1.1rem;
+    border-radius: 12px;
+  }
+  
+  /* Responsive Typography */
+  @media (max-width: 768px) {
+    .team-section {
+      grid-template-columns: 1fr;
+    }
+  
+    .team-section h2,
+    .story-section h2,
+    .who-we-are h2 {
+      font-size: 1.5rem;
+    }
+  
+    figure img {
+      width: 100px;
+      height: 100px;
+    }
+  }
+  

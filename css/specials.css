@@ -1,0 +1,68 @@
+/* Student Name: Prabin Raj Karki
+Student ID: C0956644 */
+/* General Reset and Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.banner {
+    background-color: #bb5555;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #ddd;
+}
+
+/* Section Styles */
+.section {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px; /* Added rounded corners for better design */
+    background-color: white; /* Adding background for contrast */
+}
+
+/* Highlight class */
+.highlight {
+    font-weight: bold;
+    color: red;
+}
+
+/* Guarantee Image Styles */
+.guarantee-image {
+    width: 100%; /* Make the image take up the full width of its container */
+    max-width: 300px; /* Ensure it doesn't get too large */
+    height: auto; /* Maintain aspect ratio */
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; /* Centers the image */
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 768px) {
+    .guarantee-image {
+        max-width: 250px; /* Slightly reduce image size for medium screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .guarantee-image {
+        max-width: 200px; /* Further reduce image size for small screens */
+    }
+
+    .banner {
+        font-size: 20px; /* Reduce banner font size for smaller screens */
+        padding: 15px; /* Adjust padding */
+    }
+
+    .section {
+        margin: 10px; /* Reduce margin for smaller screens */
+        padding: 15px; /* Adjust padding for better spacing */
+    }
+}
